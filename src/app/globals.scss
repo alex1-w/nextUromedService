@@ -1,0 +1,98 @@
+:root {
+  --max-width: 1100px;
+  --border-radius: 12px;
+  --main-blue: #30489F;
+  --secondary-blue: #3F96EA;
+  --dark: #222222;
+  --green: #007F00;
+  --orange: #F3761B;
+  --white: #FFFFFF;
+  --gray: #ECECEC;
+  --main-bg: linear-gradient(164deg, rgba(47, 163, 101, 1) 6%, rgba(21, 84, 92, 1) 85%);
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: var(--white);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+a {
+  outline: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+  text-decoration: none;
+
+  &:hover,
+  &:focus,
+  &:active {
+    outline: none;
+    background: none;
+    cursor: pointer;
+  }
+}
+
+h2 {
+  display: block;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}

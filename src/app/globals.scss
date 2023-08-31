@@ -11,8 +11,6 @@
   --main-bg: linear-gradient(164deg, rgba(47, 163, 101, 1) 6%, rgba(21, 84, 92, 1) 85%);
 }
 
-
-
 h1,
 h2,
 h3,
@@ -34,9 +32,15 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  // background-color:  var(--gray);
 }
 
-body {}
+
+body {
+
+  background-color: var(--gray);
+
+}
 
 a {
   color: inherit;

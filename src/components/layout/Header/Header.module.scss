@@ -1,5 +1,6 @@
 .main {
     margin: 0 auto;
+    background-color: var(--white);
 
     >div:first-child {
         height: 30px;
@@ -65,7 +66,7 @@
         li {
             p {
                 font-size: 14px;
-                font-weight: 700;   
+                font-weight: 700;
             }
         }
     }
@@ -125,3 +126,5 @@
 .btns {
     display: flex;
 }
+
+
